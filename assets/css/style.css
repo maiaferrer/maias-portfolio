@@ -1,10 +1,12 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ECEFD8;
 }
+
 .body {
     background-color:#393939;
 }
-li {
+
+nav li {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -12,10 +14,11 @@ li {
         background-color: #849561;
     }
 
-li {
+nav li {
         float: right;
     }
-li a, .dropbtn {
+
+nav li a, .dropbtn{
     display: inline-block;
     color: #ECEFD8;
     text-align: center;
@@ -23,7 +26,18 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover,
-    .dropdown:hover .dropbtn {
-        background-color: #CCD6A6 ;
+nav li a:hover {
+    background-color: #CCD6A6;
+}
+
+#world {
+    padding: 10px;
+    font-family: monospace;
+    color: #849561;
+}
+
+#sudent {
+    padding: 10px;
+    font-family: monospace;
+    color: #849561;
 }
