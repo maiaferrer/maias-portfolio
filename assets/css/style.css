@@ -50,7 +50,7 @@ header{
     font-family: "Century Gothic",Verdana , sans-serif;
     font-size: 100px;
     color: #ECEFD8;
-    text-shadow: 2px 2px 9px #849561;
+    text-shadow: 2px 2px 15px #849561;
     letter-spacing: 20px;
     margin: 0px 0px 0px 0px;
 }
@@ -60,4 +60,34 @@ header{
     color: #EED690;
     font-size: 70px;
     margin: 0px 0px 0px 0px;
+}
+
+header p {
+    font-family: "Century Gothic",Verdana,sans-serif;
+    color: #ECEFD8;
+}
+
+section h2 {
+    font-family:"Century Gothic",Verdana,sans-serif ;
+    color: #EED690;
+    padding-left: 50px;
+}
+
+mark {
+    background-color: #849561;
+}
+
+#about-me {
+    max-width: 500px;
+    float: right;
+    padding-right: 100px;
+    line-height: 200%;
+}
+
+.image{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin: 10px 10px 10px 10px;
+
 }
