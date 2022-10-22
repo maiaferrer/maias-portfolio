@@ -35,16 +35,26 @@ nav li a {
 header{
     padding: 150px;
     font-family: "Century Gothic", Verdana, sans-serif;
+    color: #ECEFD8;
 }
 
-#world {
+#Hi {
     /* padding: 10px; */
     font-family: monospace;
     color: #849561;
+    margin-bottom: 0px;
 }
 
-#student {
-    padding: 10px;
-    font-family: monospace;
-    color: #849561;
+#maia {
+    padding: 0px;
+    font-family: "Century Gothic",Verdana , sans-serif;
+    font-size: 100px;
+    color: #ECEFD8;
+    text-shadow: 2px 2px 9px #849561;
+    letter-spacing: 20px;
+}
+
+#title {
+    font-family: "Century Gothic", Verdana, sans-serif;
+    color: #EED690;
 }
