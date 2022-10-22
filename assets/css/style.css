@@ -39,10 +39,10 @@ header{
 }
 
 #Hi {
-    /* padding: 10px; */
+    padding: 10px;
     font-family: monospace;
     color: #849561;
-    margin-bottom: 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 #maia {
@@ -52,9 +52,12 @@ header{
     color: #ECEFD8;
     text-shadow: 2px 2px 9px #849561;
     letter-spacing: 20px;
+    margin: 0px 0px 0px 0px;
 }
 
 #title {
     font-family: "Century Gothic", Verdana, sans-serif;
     color: #EED690;
+    font-size: 70px;
+    margin: 0px 0px 0px 0px;
 }
