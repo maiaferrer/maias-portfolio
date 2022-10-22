@@ -88,6 +88,22 @@ mark {
     border-radius: 50%;
     height: 350px;
     width: 350px;
-    margin: 10px 10px 10px 10px;
+}
 
+#bio {
+    display:flex;
+    justify-content: center;
+    flex-flow: row-reverse wrap;
+    column-gap: 50px;
+}
+
+#bio h2 {
+    width: 100vw;
+    display: block;
+}
+.icons {
+    list-style-type: none;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline;
 }
