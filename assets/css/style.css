@@ -115,8 +115,49 @@ mark {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-between;
 }
+
+#project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 5rem;
+    background-color:#CCD6A6 ;
+
+    border-radius: 15%;
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-header {
+    color: #849561;
+    font-family: monospace;
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 1rem 2.5rem;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+#explain-project {
+    color: #ECEFD8;
+    background-color: #849561;
+    font-family: monospace;
+}
+
+#project-image {
+    height: 150px;
+    width: 250px;
+}
+#project-card:hover {
+    background-color: #ECEFD8;
+}
+
+
+
+
+
 
 /* footer */
 footer {
