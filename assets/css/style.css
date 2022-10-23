@@ -139,12 +139,14 @@ mark {
     padding: 1rem 2.5rem;
     border: 2px solid;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 #explain-project {
     color: #ECEFD8;
     background-color: #849561;
     font-family: monospace;
+    text-decoration: none;
 }
 
 #project-image {
