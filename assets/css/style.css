@@ -70,7 +70,7 @@ header p {
 section h2 {
     font-family:"Century Gothic",Verdana,sans-serif ;
     color: #EED690;
-    padding-left: 50px;
+    text-align: center;
 }
 
 mark {
@@ -82,6 +82,7 @@ mark {
     float: right;
     padding-right: 100px;
     line-height: 200%;
+    margin: 150px;
 }
 
 .image{
@@ -158,6 +159,7 @@ mark {
 }
 
 /* contact me box */
+input[type=email],
 input[type=text],
 select,
 textarea {
@@ -185,9 +187,9 @@ input[type=submit] {
     background-color: #CCD6A6;
     padding: 20px;
     width: 75%;
-    margin: 150px;
-    font-family: monospace;
-    
+    font-family: "Century Gothic",Verdana,sans-serif;    
+    margin: auto;
+    margin-bottom: 150px;
 }
 
 /* footer */
@@ -201,3 +203,12 @@ footer {
     height: 40px;
     letter-spacing: 15px;
 }
+/* @media screen and (max-width: 768px) {
+    main,
+    nav,
+    nav li,
+    nav li a {
+        display: flex;
+        flex-direction: column;
+    }
+} */
