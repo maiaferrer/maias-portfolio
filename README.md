@@ -1,6 +1,7 @@
-# maias-portfolio
+# I present to you ✨My Portfolio✨
+## Project Description
+I faced a number of challenges on this project but gained lots of knowledge in the process. I hope to make some more changes in the near future. 
 
-## 
 ## Important Links
 [GitHub Repository](https://github.com/maiaferrer/Challege_1)
 [Deployed Application](https://maiaferrer.github.io/Challege_1/)
