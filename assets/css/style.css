@@ -148,6 +148,9 @@ mark {
     background-color: #849561;
     font-family: monospace;
     text-decoration: none;
+    max-width: fit-content;
+    text-decoration: none;
+    
 }
 
 #project-image {
