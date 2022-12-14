@@ -1,7 +1,7 @@
 
 * {
     color: #ECEFD8;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Unbounded', cursive;
 }
 
 .body {
@@ -29,7 +29,6 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    font-family: "Century Gothic", Verdana, sans-serif;
     font-size: 22px;
 }
 
@@ -89,13 +88,14 @@ mark {
 .image{
     border-radius: 50%;
     height: 400px;
-    
+    margin: 80px;
+    filter: drop-shadow(8px 8px 10px #EED690)
+
 }
 
 #bio {
     display:flex;
-    /* justify-content: center; */
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-flow: row-reverse wrap;
 }
 
@@ -124,6 +124,7 @@ mark {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
+    max-width: 15%;
     padding: 5rem;
     background-color:#CCD6A6 ;
 
@@ -135,19 +136,21 @@ mark {
 
 .card-header {
     color: #849561;
-    font-family: monospace;
+    /* font-family: monospace; */
+    font-size: 20px;
     position: relative;
     margin: -4rem 0 1.5rem 0;
     padding: 1rem 2.5rem;
     border: 2px solid;
     border-radius: 8px;
     text-decoration: none;
+    text-align: center;
 }
 
 #explain-project {
     color: #ECEFD8;
     background-color: #849561;
-    font-family: monospace;
+    /* font-family: monospace; */
     text-decoration: none;
     max-width: fit-content;
     text-decoration: none;
@@ -155,8 +158,9 @@ mark {
 }
 
 #project-image {
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+    opacity: 40%;
 }
 #project-card:hover {
     background-color: #ECEFD8;
