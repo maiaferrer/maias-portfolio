@@ -83,12 +83,13 @@ mark {
     float: right;
     padding-right: 100px;
     line-height: 200%;
-    margin: 150px;
+    margin: 40px;
 }
 
 .image{
     border-radius: 50%;
     height: 400px;
+    
 }
 
 #bio {
@@ -96,8 +97,6 @@ mark {
     /* justify-content: center; */
     justify-content: space-around;
     flex-flow: row-reverse wrap;
-    /* column-gap: 40px; */
-    background-color: red;
 }
 
 #bio h2 {
