@@ -1,5 +1,7 @@
+
 * {
     color: #ECEFD8;
+    font-family: 'Poiret One', cursive;
 }
 
 .body {
@@ -63,7 +65,6 @@ header{
 }
 
 header p {
-    font-family: "Century Gothic",Verdana,sans-serif;
     color: #ECEFD8;
 }
 
@@ -87,15 +88,16 @@ mark {
 
 .image{
     border-radius: 50%;
-    height: 350px;
-    width: 350px;
+    height: 400px;
 }
 
 #bio {
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-around;
     flex-flow: row-reverse wrap;
-    column-gap: 50px;
+    /* column-gap: 40px; */
+    background-color: red;
 }
 
 #bio h2 {
@@ -161,38 +163,15 @@ mark {
     background-color: #ECEFD8;
 }
 
-/* contact me box */
-input[type=email],
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #849561;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+#contact-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
 }
 
-input[type=submit] {
-    background-color: #EED690;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #CCD6A6;
-    padding: 20px;
-    width: 75%;
-    font-family: "Century Gothic",Verdana,sans-serif;    
-    margin: auto;
-    margin-bottom: 150px;
+#contact-info{
+    text-align: center;
 }
 
 /* footer */
