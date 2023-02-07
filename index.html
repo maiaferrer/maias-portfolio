@@ -4,28 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link rel="icon" href="./assets/images/mylogo.png">
         <title>Maia Ferrer</title>
     </head>
 
 <body class="body">
-<nav>  
-    <ul>
-        <li> <a href="#about-me">about me</a></li>
-        <li> <a href="#Skills">skills</a></li>
-        <li> <a href="#Projects">projects</a></li>
-        <li> <a href="#Contact-Me">contact me</a></li>
-    </ul>
-</nav>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">about me</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="#Skills">skills</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#Projects">projects</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#Contact-Me">contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 <header id="About-the-developer" class="header">
     <h1 id="Hi">Hi my name is...</h1>
     <h1 id="maia">MAIA FERRER</h1>
-    <h2 id="title">A Fontend Web Developer.</h2>
+    <h2 id="title">A Frontend Web Developer.</h2>
     <p>I am a Software Developer with interests in designing and building adaptive applications for an ideal user experience.</p>
 </header>
 
@@ -40,7 +52,7 @@
         <img class="image" src="./assets/images/coffeeme.jpeg" alt="a picture of Maia"/>
     </section>
 
-    <section id="Skills">
+    <!-- <section id="Skills">
         <h2>skills.</h2>
             <ul class="icons">
                 <li>
@@ -51,29 +63,37 @@
                 <li><img src="https://camo.githubusercontent.com/aeddc848275a1ffce386dc81c04541654ca07b2c43bbb8ad251085c962672aea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145" 
                     alt="Javascript icon"></li>
             </ul>
-    </section>
+    </section> -->
 
     <section id="Projects">
         <h2>projects.</h2>
-        <ul class="row">
+        <ul class="projects-row">
+            <div class="project-card card" style="width: 18rem; height:27rem">
+  <img src="./assets/images/crowdsurf.jpeg" class="card-img-top" alt="crowd-surf application">
+  <div class="card-body">
+    <h5 class="card-title">Crowd Surf</h5>
+    <p class="card-text">This project was created collaboratively and is a VIP for an app that will allow the user to view the top trending songs on Spotify, and see upcoming events for the chosen artist.</p>
+    <a href="https://bogartdme.github.io/crowd-surf-music-app/" class="btn" id="explain-project">Check out this App!</a>
+  </div>
+</div>
 
-            <li id="project-card"> 
-                <a href="https://ckester99.github.io/crowd-surf/"> 
-                    <h3 class="card-header">Crowd Surf</h3>
-                        <img id="project-image" src="./assets/images/crowdsurf.jpeg" alt="crowdsurf project">
-                            <p id="explain-project">This project was created collaboratively and is a VIP for an app that will allow the user to view the top trending songs on Spotify, and see upcoming events for the chosen artist.</p>
-                </a>
-            </li> 
-            <li id="project-card">
-                <h3 class="card-header">Project 2</h3>
-                    <img id="project-image"src="https://via.placeholder.com/200" alt="placeholder">
-                    <p id="explain-project">Coming Soon</p>
-            </li>
-            <li id="project-card"> 
-                <h3 class="card-header">Project 3</h3>
-                    <img id="project-image"src="https://via.placeholder.com/200" alt="placeholder">
-                    <p id="explain-project">Coming Soon</p>
-            </li>
+<div class="project-card card" style="width: 18rem; height:27rem">
+  <img src="./assets/images/spotter.png" class="card-img-top" alt="crowd-surf application">
+  <div class="card-body">
+    <h5 class="card-title">Spotter</h5>
+    <p class="card-text">The perfect application for a consistent gym-goer. Spotter allows a user to build a weekly routine to allow for more efficient time spent at the gym.</p>
+    <a href="https://project-2-spotter.herokuapp.com/login" class="btn" id="explain-project">Check out this App!</a>
+  </div>
+</div>
+
+<div class="project-card card" style="width: 18rem; height:27rem">
+  <img src="#" class="card-img-top" alt="crowd-surf application">
+  <div class="card-body">
+    <h5 class="card-title">Coming soon</h5>
+    <p class="card-text">to my portfolio</p>
+    <a href="#" class="btn" id="explain-project">Check out this App!</a>
+  </div>
+</div>
         </ul>
      </section>
      <section id="Contact-Me">
@@ -94,5 +114,8 @@
     <footer>
         Designed & Built with 🖤 by Maia Ferrer
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
  </body>
 </html>

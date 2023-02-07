@@ -3,6 +3,9 @@
     color: #ECEFD8;
     font-family: 'Unbounded', cursive;
 }
+html {
+    scroll-behavior: auto;
+}
 
 .body {
     background-color:#393939;
@@ -10,7 +13,7 @@
 
 nav li a:hover {
     background-color: #CCD6A6;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 nav {
@@ -112,38 +115,42 @@ mark {
     justify-content: center;
 }
 
-.row {
+.projects-row {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#project-card {
+.card-text{
+    color: #393939;
+}
+.project-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 100%;
-    max-width: 15%;
-    padding: 5rem;
     background-color:#CCD6A6 ;
-
-    border-radius: 15%;
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
-    margin: 10px;
+    color: #393939;
 }
 
-.card-header {
+
+.project-card a {
+    text-decoration: none
+}
+
+.project-header {
     color: #849561;
-    /* font-family: monospace; */
+    font-family: monospace;
     font-size: 20px;
-    position: relative;
+    /* position: relative; */
     margin: -4rem 0 1.5rem 0;
     padding: 1rem 2.5rem;
     border: 2px solid;
     border-radius: 8px;
-    text-decoration: none;
+    
     text-align: center;
 }
 
@@ -157,14 +164,15 @@ mark {
     
 }
 
-#project-image {
-    height: 200px;
-    width: 200px;
-    opacity: 40%;
-}
 #project-card:hover {
     background-color: #ECEFD8;
 }
+
+.card-img-top {
+    filter: blur(5px);
+    -webkit-filter: blur(5px)
+}
+
 
 #contact-links {
     list-style: none;
@@ -197,3 +205,10 @@ footer {
         flex-direction: column;
     }
 } */
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 13px;
+    }
+}
